@@ -9,12 +9,12 @@ This repo contains collections of PyTorch FX Graph to TVM Realx translation exam
 python -m venv .venv # or
 uv venv
 
+# activate virtual env
+source .venv/bin/activate
+
 # install python dependencies
 pip install -U cmake ninja torch torchvision # or
 uv pip install -U cmake ninja torch torchvision
-
-# activate virtual env
-source .venv/bin/activate
 
 # clone, build and install
 cd 3rdparty
